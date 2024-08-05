@@ -1,7 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-for (int i = 1; i <= 200; i++)
+Console.WriteLine("Enter max number:");
+int maxLoop = Convert.ToInt32(Console.ReadLine());
+Console.Write("You have enter: ");
+Console.Write(maxLoop);
+Console.WriteLine("");
+
+for (int i = 1; i <= maxLoop+1; i++)
 {
     string str1 = "";
     string str2 = "";
